@@ -1,0 +1,50 @@
+.SearchByUserHeaderContent-wrapper{
+    padding-top:2%;
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 120px;
+    left:180px;
+    right:200px;
+    width: 75%;
+}
+
+
+.search-by-user-header-form-control{
+        width:100%;
+        float:left;
+        margin-right:2%;
+        margin-top:1.5%;
+        margin-left:3.5%;
+        margin-bottom:2%;
+}
+
+
+
+.SearchByUserHeaderTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 260%;
+    margin-left: 3%;
+    height: 120px;
+}
+
+
+
+.header-active-cyan-2{
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+    border:none;
+    width:60%;
+}
+.header-active-cyan-2:focus{
+    border-bottom: 2px solid #4dd0e1;
+    box-shadow: 0 2px 0 0 #4dd0e1;
+    border:none;
+    width:80%;
+    outline: none !important;
+    outline-offset: none !important;
+}
+
+.active-cyan-2-fa {
+    color: #4dd0e1;
+}

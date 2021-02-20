@@ -1,0 +1,166 @@
+.content-wrapper{
+    position:absolute;
+    background-image: image("images/Chrome-logo.jpg");
+    top: 0px;
+    bottom: 0px;
+    overflow-y: auto;
+    right: 200px;
+    left: 180px;
+    width: 75%;
+}
+
+.title{
+    margin-top: 0.5rem;
+    margin-left: 0.9375rem;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: black;
+}
+
+.description {
+    font-family: "Montserrat", Times, serif;
+    margin-top: 0.5rem;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+.link{
+    font-family: "Montserrat", Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.second-row{
+    padding-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    margin-bottom:3%;
+    border-bottom: 1px solid #c0c1c4;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+
+@media screen and (max-width: 187.5em){
+    .imageSize {
+        max-width: 16.6667%;
+        flex: 0 0 16.6667%;
+        margin-left: 0.2%;
+        border-radius: 0.8125rem;
+        display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 118.75em){
+    .imageSize {
+        max-width: 19.5%;
+        flex: 0 0 20%;
+        margin-left: 0.2%;
+        border-radius: 0.8125rem;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 81.25em){
+    .imageSize {
+        max-width: 25%;
+        flex: 0 0 25%;
+        border-radius: 0.8125rem;
+        display: inline-block;
+    }
+    .midSize{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 50em){
+    .imageSize {
+        max-width: 60%;
+        flex: 0 0 60%;
+        padding: 0.3125rem;
+        border-radius: 0.8125rem;
+        display: inline-block;
+    }
+    .logoSize {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.9375rem;
+        margin: 0.625rem 0.625rem 0.625rem 0.9375rem;
+    }
+}
+
+.logoSize {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -2px, rgba(0, 0, 0, 0.15) 0px 5px 15px -5px;
+    margin: 0.3125rem 0.3125rem 0.3125rem 1.5625rem;
+    border-radius: 0.8125rem;
+}
+
+.button{
+    background: white;
+    font-family: "Montserrat", Times, serif;
+    color: black;
+    font-size: 90px;
+    font-weight: 100;
+
+}
+
+
+.search-input {
+    -webkit-appearance: none;
+    width: 100%;
+    border: none;
+    font-family: "Montserrat", Times, serif;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #c8ccd4;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #223254;
+    transition: all 0.15s ease;
+  }
+
+  .username {
+    font-family: "Montserrat", Times, serif;
+    margin-top: 0.5rem;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .app-name {
+    margin-top: 0.3rem;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+  }
+
+
+

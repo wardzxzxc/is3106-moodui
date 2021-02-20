@@ -1,0 +1,61 @@
+.profile-menu {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    overflow-y: auto;
+    width: 180px;
+    left: 0px;
+    background-color: rgb(247, 249, 250);
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-menu-custom-btn {
+    background: #8ccdc2;
+    color: #fff;
+    border: 2px solid #8ccdc2;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: 80%;
+  }
+  
+  #profilePic {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 5%;
+  }
+  
+  #left-menu-brand {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    padding: 20px 10px;
+    width: 100%;
+    color: black;
+  }
+  
+  #left-sidebar-wrapper {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #8ccdc2;
+    border-right: 1px solid #c0c1c4;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  #content {
+    height: 100vh;
+  }
+  
+  #left-menu-username {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 100%;
+    color: black;
+  }

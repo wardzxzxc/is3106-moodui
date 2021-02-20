@@ -1,0 +1,28 @@
+.navigation {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+#left-menu-brand {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    padding: 20px 10px;
+    width: 100%;
+    color: #8ccdc2
+}
+
+.content{
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    overflow-y: auto;
+    right: 200px;
+    left: 180px;
+    width: 75%;
+    background-color: white
+}

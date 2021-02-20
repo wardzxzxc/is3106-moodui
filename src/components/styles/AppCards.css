@@ -1,0 +1,104 @@
+.content{
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    overflow-y: auto;
+    right: 200px;
+    left: 180px;
+    width: 75%;
+    background-color: white
+}
+
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 0.9375rem;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: black;
+}
+
+.appDescription{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.5rem;
+    margin-left: 0.9375rem;
+    text-align: left;
+    font-size: 1.75rem;
+    font-weight: 50;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.last-row{
+    padding-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    margin-bottom:3%;
+    border-bottom: 1px solid #c0c1c4;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+
+
+
+.logoSize {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -2px, rgba(0, 0, 0, 0.15) 0px 5px 15px -5px;
+    margin: 0.3125rem 0.3125rem 0.3125rem 1.5625rem;
+    border-radius: 0.8125rem;
+}
+
+.follow-user-button-midsize{
+    background: #8ccdc2;
+    color: #fff;
+    border: 2px solid #8ccdc2;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    margin-right: 1%;
+    text-transform: uppercase;
+    float:right;
+
+}
+
+.active-cyan-2{
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+    border:none;
+    width:19%;
+    margin-left:40%;
+}
+.active-cyan-2:focus{
+    border-bottom: 2px solid #4dd0e1;
+    box-shadow: 0 2px 0 0 #4dd0e1;
+    border:none;
+    width:20%;
+    outline: none !important;
+    outline-offset: none !important;
+    margin-left:40%;
+}
+
+.active-cyan-2-fa {
+    color: #4dd0e1;
+}
+

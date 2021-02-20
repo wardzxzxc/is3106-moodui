@@ -1,0 +1,185 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.ConnectionsAlbumContent-wrapper{
+    position:absolute;
+    top: 120px;
+    bottom: 0px;
+    overflow-y: auto;
+    display:block;
+    right: 200px;
+    left: 180px;
+    width: 75%;
+}
+
+
+
+.ConnectionsAlbumTitle{
+    margin-top: 0.5rem;
+    margin-left: 0.9375rem;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 600;
+    float:"left";
+    color: black;
+}
+
+.ConnectionsAlbumDescription{
+    font-family: "Georgia", Times, serif;
+    margin-top: 0.5rem;
+    margin-left: 0.9375rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float:"left";
+}
+
+.ConnectionsAlbumLink{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-right: 2%;
+    color: #000;
+    float:right;
+}
+
+.ConnectionsAlbumSecond-row{
+    margin-bottom:3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #c0c1c4;
+}
+
+.ConnectionsAlbumFirst-row{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+
+.ConnectionsAlbumThird-row{
+    margin-bottom:3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #c0c1c4;
+}
+.ConnectionsAlbumImageSize {
+    max-width: 250px;
+    flex: 0 0 0;
+    margin-left: 30px;
+    border-radius: 0.8125rem;
+    display: block;
+}
+@media screen and (max-width: 187.5em){
+
+    .ConnectionsAlbumAppName{
+        font-family: "Georgia", Times, serif;
+        max-width: 100%;
+        margin-left:30%;
+        margin-top:4%;
+        font-weight: 600;
+    }
+    .ConnectionsAlbumButtonLargeSize{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width: 118.75em){
+
+    .ConnectionsAlbumAppName{
+        font-family: "Georgia", Times, serif;
+        max-width: 100%;
+        margin-left:30%;
+        margin-top:4%;
+        font-weight: 600;
+    }
+    .ConnectionsAlbumButtonLargeSize{
+        display:none;
+    }
+    
+.ConnectionsAlbumLogoSize {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -2px, rgba(0, 0, 0, 0.15) 0px 5px 15px -5px;
+    margin: 0.3125rem 0.3125rem 0.3125rem 5.5625rem;
+    border-radius: 0.8125rem;
+}
+}
+
+@media screen and (max-width: 81.25em){
+
+    .ConnectionsAlbumAppName{
+        font-weight: 600;
+        max-width: 50%;
+        margin-left:15%;
+        margin-top:4%;
+        font-weight: 600;
+
+    }
+    .ConnectionsAlbumMidSize{
+        display:none;
+    }
+    .ConnectionsAlbumButtonMidSize{
+        background: #8ccdc2;
+        color: #fff;
+        border: 2px solid #8ccdc2;
+        border-radius: 2px;
+        padding: 5px 10px;
+        font-size: 1.5rem;
+        margin-right: 1%;
+        text-transform: uppercase;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 50em){
+
+    .ConnectionsAlbumAppName{
+        font-weight: 600;
+        max-width: 60%;
+        margin-left:20%;
+        margin-top:4%;
+        font-weight: 600;
+
+    }
+    .ConnectionsAlbumLogoSize {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 0.9375rem;
+        margin: 0.625rem 0.625rem 0.625rem 0.9375rem;
+    }
+    .ConnectionsAlbumButtonSmallSize{
+    background: #8ccdc2;
+    color: #fff;
+    border: 2px solid #8ccdc2;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    margin-right: 1%;
+    margin-top:3%;
+    float:left;
+    text-transform: uppercase;
+    }
+}
+
+
+.ConnectionsAlbumButton{
+    background: #8ccdc2;
+    color: #fff;
+    border: 2px solid #8ccdc2;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    margin-right: 1%;
+    float:right;
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,104 @@
+.content-wrapper {
+    left: 180px;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+ 
+.screenshot-box {
+    margin: 0  auto;
+    background: white;
+    color: grey;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed grey;
+    border-radius: 10px;
+    font-weight: normal;
+    height: 523.44px;
+    width: 252.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+}
+
+.screenshots {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+
+.screenshot-wrapper {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.screenshot {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.createAppTitle{
+    font-family: 'Comfortaa', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+.createAppSubtitle{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.create-app-input{
+    -webkit-appearance: none;
+    width: 100%;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    height: 48px;
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom: 2px solid #C8CCD4;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #223254;
+    transition: all .15s ease;
+}
+
+.app-form-row{
+    margin-top:30px;
+    margin-bottom:30px;
+    border-bottom: 1px solid darkgray;
+}
+
+.choose-file-btn {
+    background: #8ccdc2;
+    color: #fff;
+    border: 2px solid #8ccdc2;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size:15px;
+    font-family: "Montserrat", Times, serif;
+}
+
+.left-col{
+    margin-left:80px;
+}
+
+.create-app-form-label{
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}

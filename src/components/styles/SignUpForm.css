@@ -1,0 +1,44 @@
+.signup-custom-btn {
+    background: #8ccdc2;
+    color: #fff;
+    border: 2px solid #8ccdc2;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: "Montserrat", Times, serif;
+}
+
+.signup-input{
+    -webkit-appearance: none;
+    width: 100%;
+    border: none;
+    font-family: "Montserrat", Times, serif;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #C8CCD4;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #223254;
+    transition: all .15s ease;
+}
+
+.signup-header-wrapper{
+    position:relative;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    margin-top:50px;
+    font-family: "Montserrat", Times, serif;
+
+}
+
+.signup-form-wrapper {
+    border-right:  1px solid #c0c1c4;
+    font-family: "Montserrat", Times, serif;
+    padding-left: 120px;
+
+}
